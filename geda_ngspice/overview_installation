@@ -9,3 +9,7 @@ gerbv---gerber file viewer
 
 
 sudo apt-get install ngspice easyspice gspiceui
+2.运行
+2.1 手工输入spice，以net为扩展名
+2.2 ngspice xxx.net
+2.3 在提示符下输入命令，比如,run,plot。命令详见http://www.brorson.com/gEDA/SPICE/x496.html

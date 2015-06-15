@@ -1,0 +1,11 @@
+目标：在linux下进行电路设计及仿真
+最好当然是hspice，但hspice的安装不成功，所以退而求其次：geda进行schematic设计，ngspice进行仿真。
+
+1.安装：
+sudo apt-get install geda pcb gerbv
+geda---schematic画图
+pcb---pcb layout
+gerbv---gerber file viewer
+
+
+sudo apt-get install ngspice easyspice gspiceui
