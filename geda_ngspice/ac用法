@@ -1,0 +1,13 @@
+1.bode plot
+.ac dec 100 10k 1000k SWEEP
+
+.........
+plot 20*log(abs(v(out)/v(input)))
+
+上面的.ac dec表示横坐标是decade增长,也就是Log，从10khz增加到1000khz，每翻10倍，扫描100个点
+
+2.其它
+.ac lin 100 10k 100k
+lin表示线性分布，即从10k到100k(如果是5等分的话），5等分均匀分布
+
+在ngspice时，可以临时改成ac小信号，只需执行 ac dec 100 10k 1000k sweep

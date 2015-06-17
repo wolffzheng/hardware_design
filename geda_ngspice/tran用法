@@ -1,0 +1,4 @@
+.tran 10e-6 2e-3
+进行瞬态分析，每个step10us,一共2ms
+
+在ngspice命令行中，可以直接改成tran,只需运行tran 10e-6 2e-3

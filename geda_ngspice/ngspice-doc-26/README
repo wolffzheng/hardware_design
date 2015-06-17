@@ -1,0 +1,32 @@
+This Package contains the
+  `Ngspice Users Manual'
+
+DESCRIPTION:
+============
+  The Manual is composed from several LyX and image files.
+  This Package provides rules to:
+    * generate a pdf file from those.
+    * install the pdf somewhere
+    * build a tar-ball, for distribution
+
+USAGE:
+======
+  eventually run:
+    autoreconf  -Wno-portability --install
+
+  To `install' do something like:
+    ./configure ; make ; make install
+  Please read `INSTALL'
+    for detailed instructions.
+
+REQUIREMENTS:
+=============
+  You need:
+    `LyX 2.0' `TeX' and something like `texlive-lang-greek'
+  You need:
+    `GNU make' (wildcards are used)
+
+BUGS:
+=====
+  This Package does not support:
+    Parallel Build Trees (a.k.a. VPATH Builds)

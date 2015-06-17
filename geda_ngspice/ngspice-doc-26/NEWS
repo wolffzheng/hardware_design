@@ -1,0 +1,6 @@
+The manual for ngspice-26 is out!
+
+Starting with ngspice-21, we provide an elaborate manual.
+It's source is a lyx file plus tables and pictures, it's standard
+distribution is a pdf file. The manual now uses Lyx 2.0 as it's
+text processor.
